@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".I_want_to_work"
+    android:orientation="vertical"
+    android:background="@color/frc"
+    android:weightSum="9">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1.5">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="cursive"
+            android:text="My Detail"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="45dp" />
+
+    </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/workName_id"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="15dp"
+                    android:hint="name" />
+
+
+                <EditText
+                    android:id="@+id/workEmail_id"
+                    android:layout_width="200dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="15dp"
+                    android:hint="email" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="64dp"
+                    android:layout_height="58dp"
+                    android:layout_marginLeft="15dp"
+
+                    android:hint="age" />
+
+                <TextView
+                    android:layout_width="69dp"
+                    android:layout_height="60dp"
+                    android:text="years  "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="82dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="  I live in : "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="15dp" />
+
+                <Spinner
+                    android:id="@+id/spinner_example"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:entries="@array/division">
+
+
+                </Spinner>
+
+            </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="144dp"
+            android:layout_height="30dp"
+            android:text="@string/option9"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="18dp" />
+
+        <Spinner
+            android:id="@+id/spinner_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:entries="@array/years">
+
+
+        </Spinner>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+
+            android:layout_width="73dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="15dp"
+            android:text="Rate : "
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="18dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="BDT/hour "/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="@string/option8"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"/>
+
+        <Button
+            android:id="@+id/language_id"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/option10"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="50dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:layout_height="wrap_content"
+                    android:text=" I am "/>
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="professional "/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="non-professional "/>
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/submit_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/fc"
+                android:text="Submit "
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </ScrollView>
+        </LinearLayout>

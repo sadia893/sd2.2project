@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bdbuddy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LanguageList"></activity>
+        <activity android:name=".Sign_up" />
+        <activity android:name=".Sign_in" />
+        <activity android:name=".Mymensingfood" />
+        <activity android:name=".Mymensing_Spectacular_Place" />
+        <activity android:name=".Rangpurfood" />
+        <activity android:name=".Rangpur_Spectacular_Places" />
+        <activity android:name=".Khulna_Spectacular_Place" />
+        <activity android:name=".Khunlafood" />
+        <activity android:name=".Chittagong_Spectacular_places" />
+        <activity android:name=".Chittagongfood" />
+        <activity android:name=".Barisal_Spectacular_Place" />
+        <activity android:name=".Barisalfood" />
+        <activity android:name=".Sylhet_Spectacular_Place" />
+        <activity android:name=".Sylhetfood" />
+        <activity android:name=".Rajshahi_Spectacular_place" />
+        <activity android:name=".Rajshahifood" />
+        <activity android:name=".Dhakafood" />
+        <activity android:name=".Dhaka_Spectacular_place" />
+        <activity android:name=".Rangpur_Place" />
+        <activity android:name=".Mymensing_Place" />
+        <activity android:name=".Rajshahi_Place" />
+        <activity android:name=".Khulna_Place" />
+        <activity android:name=".Chittagong_Place" />
+        <activity android:name=".Sylhet_Place" />
+        <activity android:name=".Barisal_Place" />
+        <activity android:name=".Dhaka_Place" />
+        <activity android:name=".Selected_Divisions" />
+        <activity android:name=".Time" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".EmergencyMymensing" />
+        <activity android:name=".EmergencySylhet" />
+        <activity android:name=".EmergencyRangpur" />
+        <activity android:name=".EmergencyKhulna" />
+        <activity android:name=".EmergencyChittagong" />
+        <activity android:name=".EmergencyBarisal" />
+        <activity android:name=".EmergecyRajshahi" />
+        <activity android:name=".EmergecyDhaka" />
+        <activity android:name=".Division" />
+        <activity android:name=".I_want_to_work" />
+        <activity android:name=".guide_list" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
