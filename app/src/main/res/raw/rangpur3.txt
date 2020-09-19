@@ -1,0 +1,9 @@
+
+Fire Brigade:
+
+Place Type	:Fire Station
+Address	:	Station Rd, Dinajpur 5200, Bangladesh
+Coordinate	:25.6304984, 88.6350654
+Phone	:	+880 1753-164277
+Rating	:	4.20
+Website	:	www.fireservice.gov.bd

@@ -1,0 +1,8 @@
+Fire Brigade:
+
+Place Type	:	Fire Station
+Address	:	Khulna - Jessore - Dhaka Hwy, Khulna, Bangladesh
+Coordinate	:	22.8311416, 89.5457518
+Phone	:	+880 41-760333
+Rating	:	4.60
+Website	:	www.fireservice.gov.bd

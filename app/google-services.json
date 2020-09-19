@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "919433206148",
+    "firebase_url": "https://bd-buddy-98fa6.firebaseio.com",
+    "project_id": "bd-buddy-98fa6",
+    "storage_bucket": "bd-buddy-98fa6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919433206148:android:9f1cd703be898218b0e5d1",
+        "android_client_info": {
+          "package_name": "com.example.bdbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919433206148-k1vrkd3omh661l90g8ss7us6fsof8s2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVVzDlUxMxkOUzOpze2sW88Qg5y2GHgQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919433206148-k1vrkd3omh661l90g8ss7us6fsof8s2e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
