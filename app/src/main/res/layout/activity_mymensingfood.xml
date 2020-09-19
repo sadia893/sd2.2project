@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Mymensingfood"
     android:padding="30dp"
+    android:background="@color/frc"
     android:orientation="vertical">
 
 

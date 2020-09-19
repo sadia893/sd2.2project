@@ -23,20 +23,27 @@
     <string name="l11">  Japanese  </string>
 
 
-
     <array name="division">
 
         <item>Select Division</item>
 
-        <item>Barisal</item>
         <item>Dhaka</item>
         <item>Rajshahi</item>
-        <item>Khulna</item>
-        <item>Chittagong</item>
-        <item>Sylhet</item>
         <item>Rangpur</item>
         <item>Mymensing</item>
+        <item>Sylhet</item>
+        <item>Chittagong</item>
+        <item>Barisal</item>
+        <item>Khulna</item>
 
+
+    </array>
+
+    <array name="pr">
+
+        <item>Professional</item>
+
+        <item>Non-professional</item>
 
     </array>
 
@@ -54,11 +61,92 @@
         <item>9 years</item>
         <item>10 years</item>
         <item>more than 10 years</item>
+        <item>less than 1 year</item>
 
 
     </array>
+    <string name="title_activity_maps__dhaka1">Map</string>
+    <string name="title_activity_maps__dhaha2">Map</string>
+    <string name="title_activity_maps__dhaka2">Map</string>
+    <string name="title_activity_maps__dhaka3">Map</string>
+    <string name="title_activity_maps__dhaka4">Map</string>
+    <string name="title_activity_maps__dhaka5">Map</string>
+    <string name="title_activity_maps__dhaka6">Map</string>
+    <string name="title_activity_maps__dhaka7">Map</string>
+    <string name="title_activity_maps__dhaka8">Map</string>
+    <string name="title_activity_maps__dhaka9">Map</string>
+    <string name="title_activity_maps__dhaka10">Map</string>
+    <string name="title_activity_maps__dhaka11">Map</string>
+    <string name="title_activity_maps__dhaka12">Map</string>
+    <string name="title_activity_maps__dhaka13">Map</string>
+    <string name="title_activity_maps__dhaka14">Map</string>
+    <string name="title_activity_maps__dhaka15">Map</string>
+    <string name="title_activity_maps__rajshahi1">Map</string>
+    <string name="title_activity_maps__rajshahi2">Map</string>
+    <string name="title_activity_maps__rajshahi3">Map</string>
+    <string name="title_activity_maps__rajshahi4">Map</string>
+    <string name="title_activity_maps__rajshahi5">Map</string>
+    <string name="title_activity_maps__rajshahi6">Map</string>
+    <string name="title_activity_maps__rajshahi7">Map</string>
+    <string name="title_activity_maps__rajshahi8">Map</string>
+    <string name="title_activity_maps__rajshahi9">Map</string>
+    <string name="title_activity_maps__rajshahi10">Map</string>
+    <string name="title_activity_maps__rajshahi11">Map</string>
+    <string name="title_activity_maps__chittagong1">Map</string>
+    <string name="title_activity_maps__chittagong2">Map</string>
+    <string name="title_activity_maps__chittagong3">Map</string>
+    <string name="title_activity_maps__chittagong4">Map</string>
+    <string name="title_activity_maps__chittagong5">Map</string>
+    <string name="title_activity_maps__chittagong6">Map</string>
+    <string name="title_activity_maps__chittagong7">Map</string>
+    <string name="title_activity_maps__chittagong8">Map</string>
+    <string name="title_activity_maps__chittagong9">Map</string>
+    <string name="title_activity_maps__sylhet1">Map</string>
+    <string name="title_activity_maps__sylhet2">Map</string>
+    <string name="title_activity_maps__sylhet3">Map</string>
+    <string name="title_activity_maps__sylhet4">Map</string>
+    <string name="title_activity_maps__sylhet5">Map</string>
+    <string name="title_activity_maps__sylhet6">Map</string>
+    <string name="title_activity_maps__sylhet7">Map</string>
+    <string name="title_activity_maps__sylhet8">Map</string>
+    <string name="title_activity_maps__sylhet9">Map</string>
+    <string name="title_activity_maps__sylhet10">Map</string>
+    <string name="title_activity_maps__sylhet11">Map</string>
 
 
+    <string name="title_activity_maps">Map</string>
+    <string name="normal_map">Normal Map</string>
+    <string name="hybrid_map">Hybrid Map</string>
+    <string name="satellite_map">Satellite Map</string>
+    <string name="terrain_map">Terrain Map</string>
+    <string name="title_activity_maps__chittagong10">Map</string>
+    <string name="title_activity_maps__chittagong11">Map</string>
+    <string name="title_activity_maps__chittagong12">Map</string>
+    <string name="title_activity_maps__mymensing1">Map</string>
+    <string name="title_activity_maps__mymensing2">Map</string>
+    <string name="title_activity_maps__mymensing3">Map</string>
+    <string name="title_activity_maps__mymensing4">Map</string>
+    <string name="title_activity_maps__mymensing5">Map</string>
+    <string name="title_activity_maps__rangpur1">Map</string>
+    <string name="title_activity_maps__rangpur2">Map</string>
+    <string name="title_activity_maps__rangpur3">Map</string>
+    <string name="title_activity_maps__rangpur4">Map</string>
+    <string name="title_activity_maps__rangpur5">Map</string>
+    <string name="title_activity_maps__rangpur6">Map</string>
+    <string name="title_activity_maps__khukna1">Map</string>
+    <string name="title_activity_maps__khukna2">Map</string>
+    <string name="title_activity_maps__khulna3">Map</string>
+    <string name="title_activity_maps__khulna4">Map</string>
+    <string name="title_activity_maps__khulna5">Map</string>
+    <string name="title_activity_maps__khulna6">Map</string>
+    <string name="title_activity_maps__khulna1">Map</string>
+    <string name="title_activity_maps__khulna2">Map</string>
+    <string name="title_activity_maps__barisal1">Map</string>
+    <string name="title_activity_maps__barisal2">Map</string>
+    <string name="title_activity_maps__barisal3">Map</string>
+    <string name="title_activity_maps__barisal4">Map</string>
+    <string name="title_activity_maps__barisal5">Map</string>
+    <string name="title_activity_maps__barisal6">Map</string>
 
 
 </resources>

@@ -4,110 +4,416 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Chittagong_Place"
-    android:background="@drawable/images"
     android:orientation="vertical"
-    >
+    android:padding="30dp"
+    android:background="@color/frc"
+    tools:context=".Chittagong_Place">
 
 
-
-    <ImageView
-        android:id="@+id/imageView"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:padding="20dp"
-        app:srcCompat="@drawable/chittagong" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
 
 
 
-    <LinearLayout
-
-        android:orientation="horizontal"
-        android:id="@+id/linearlayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-
-        >
-
-
-        <Button
-
-            android:id="@+id/cspeplace"
-            android:layout_width="83dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:text="Places"
-
-            android:textColor="#000000"
-            android:textSize="16dp"
-            android:textStyle="italic"
-
-            />
-
-        <Button
-
-            android:id="@+id/cfood"
-            android:layout_width="83dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:text="Food"
-
-            android:textColor="#000000"
-            android:textSize="16dp"
-            android:textStyle="italic"
-
-            />
-
-
-    </LinearLayout>
-
-
-    <LinearLayout
-
-        android:orientation="horizontal"
-        android:id="@+id/linearlayout1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/linearlayout"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-
-        >
-
-
-        <Button
-
-            android:id="@+id/Location"
-            android:layout_width="83dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:text="Location"
-
-            android:textColor="#000000"
-            android:textSize="16dp"
-            android:textStyle="italic"
-
-            />
-        <Button
-
-            android:id="@+id/Weather"
-            android:layout_width="83dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:text="Weather"
-
-            android:textColor="#000000"
-            android:textSize="16dp"
-            android:textStyle="italic"
-
-            />
+            <TextView
+                android:layout_marginLeft="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Place list  "
+                android:textSize="35dp"
+                android:textStyle="italic"
+                android:textAppearance="?android:textAppearanceLarge" />
 
 
 
-    </LinearLayout>
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Foy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Foy's Lake"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Khoiyachora"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Khoiyachora Waterfall"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Kaptai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Kaptai Lake"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Boga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Boga Lake"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout3"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Cox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Cox's Bazar Beach"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout4"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Nilachal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Nilachal"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout5"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Nilgiri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Nilgiri Mountains"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout6"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Sajek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Sajek Valley"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout7"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Mainamati"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Mainamati"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout8"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/debotakhum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Debotakhum"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout9"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Chimbuk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Chimbuk Hill"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout10"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Alutila"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Alutila Cave"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
 
 
 </RelativeLayout>

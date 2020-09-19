@@ -4,110 +4,386 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Sylhet_Place"
-    android:background="@drawable/images"
     android:orientation="vertical"
-    >
+    android:padding="30dp"
+    android:background="@color/frc"
+    tools:context=".Sylhet_Place">
 
 
-
-    <ImageView
-        android:id="@+id/imageView"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:padding="20dp"
-        app:srcCompat="@drawable/sylhet" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
 
 
 
-    <LinearLayout
-
-        android:orientation="horizontal"
-        android:id="@+id/linearlayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-
-        >
-
-
-        <Button
-
-            android:id="@+id/sspeplace"
-            android:layout_width="83dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:text="Places"
-
-            android:textColor="#000000"
-            android:textSize="16dp"
-            android:textStyle="italic"
-
-            />
-
-        <Button
-
-            android:id="@+id/sfood"
-            android:layout_width="83dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:text="Food"
-
-            android:textColor="#000000"
-            android:textSize="16dp"
-            android:textStyle="italic"
-
-            />
-
-
-    </LinearLayout>
-
-
-    <LinearLayout
-
-        android:orientation="horizontal"
-        android:id="@+id/linearlayout1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/linearlayout"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-
-        >
-
-
-        <Button
-
-            android:id="@+id/Location"
-            android:layout_width="83dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:text="Location"
-
-            android:textColor="#000000"
-            android:textSize="16dp"
-            android:textStyle="italic"
-
-            />
-        <Button
-
-            android:id="@+id/Weather"
-            android:layout_width="83dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:text="Weather"
-
-            android:textColor="#000000"
-            android:textSize="16dp"
-            android:textStyle="italic"
-
-            />
+            <TextView
+                android:layout_marginLeft="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Place list  "
+                android:textSize="35dp"
+                android:textStyle="italic"
+                android:textAppearance="?android:textAppearanceLarge" />
 
 
 
-    </LinearLayout>
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Ali"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Ali Amjad's Clock"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Hazrat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Hazrat Shahjalal Mazar Sharif"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Tanguar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Tanguar Haor"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/SREEMANGAL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Sreemangal"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout3"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Jaflong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Jaflong"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout4"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Bisnakandi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Bisnakandi"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout5"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Lova"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Lova chora"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout6"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Lala"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Lala Khal"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout7"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/malnicherra"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Malnicherra tea garden"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout8"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/kala"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Kala Pahar"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout9"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Ratargul"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Ratargul Swamp Forest"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
 
 
 </RelativeLayout>

@@ -4,110 +4,197 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Mymensing_Place"
-    android:background="@drawable/images"
     android:orientation="vertical"
-    >
+    android:padding="30dp"
+    android:background="@color/frc"
+    tools:context=".Mymensing_Place">
 
 
-
-    <ImageView
-        android:id="@+id/imageView"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:padding="20dp"
-        app:srcCompat="@drawable/mymensingh" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
 
 
 
-    <LinearLayout
-
-        android:orientation="horizontal"
-        android:id="@+id/linearlayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-
-        >
-
-
-        <Button
-
-            android:id="@+id/mspeplace"
-            android:layout_width="83dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:text="Places"
-
-            android:textColor="#000000"
-            android:textSize="16dp"
-            android:textStyle="italic"
-
-            />
-
-        <Button
-
-            android:id="@+id/mfood"
-            android:layout_width="83dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:text="Food"
-
-            android:textColor="#000000"
-            android:textSize="16dp"
-            android:textStyle="italic"
-
-            />
-
-
-    </LinearLayout>
-
-
-    <LinearLayout
-
-        android:orientation="horizontal"
-        android:id="@+id/linearlayout1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/linearlayout"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-
-        >
-
-
-        <Button
-
-            android:id="@+id/Location"
-            android:layout_width="83dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:text="Location"
-
-            android:textColor="#000000"
-            android:textSize="16dp"
-            android:textStyle="italic"
-
-            />
-        <Button
-
-            android:id="@+id/Weather"
-            android:layout_width="83dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:text="Weather"
-
-            android:textColor="#000000"
-            android:textSize="16dp"
-            android:textStyle="italic"
-
-            />
+            <TextView
+                android:layout_marginLeft="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Place list  "
+                android:textSize="35dp"
+                android:textStyle="italic"
+                android:textAppearance="?android:textAppearanceLarge" />
 
 
 
-    </LinearLayout>
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Shilpacharya"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Shilpacharya Zainul Abedin Sangrahashala"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Birishiri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Birishiri, Netrokona"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Nikli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Nikli Haor"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Alexander"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Alexander Castle"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout3"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Shashi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Shashi Lodge"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
 
 
 </RelativeLayout>

@@ -64,38 +64,59 @@
         android:ems="10"
         android:layout_weight="0.5"
         android:hint="Password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword" /><LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
     <Button
         android:id="@+id/login_id"
         android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginLeft="30dp"
         android:background="@color/fc"
-        android:textColor="@color/white"
-        android:layout_height="0dp"
+        android:clickable="true"
         android:text="log In"
-        android:layout_weight=".2"
-        android:layout_gravity="center"
-        android:clickable="true"/>
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/fp_id"
+        android:layout_width="224dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="50dp"
+        android:background="@color/fc"
+        android:clickable="true"
+        android:text="  Forget password ?  "
+        android:textColor="@color/white" />
+</LinearLayout><LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight=".2">
 
     <TextView
-        android:layout_width="397dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="100dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="15dp"
-        android:layout_weight=".2"
+
         android:clickable="false"
-        android:text="  don't have an account?"
+        android:text=" New here ?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="20dp" />
+
     <Button
         android:id="@+id/signup_id"
         android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="30dp"
         android:background="@color/fc"
-        android:textColor="@color/white"
-        android:layout_height="0dp"
+        android:clickable="true"
         android:text="Sign Up"
-        android:layout_weight=".2"
-        android:layout_gravity="center"
-        android:clickable="true"/>
+        android:textColor="@color/white" />
+</LinearLayout>
+
 
 </LinearLayout>

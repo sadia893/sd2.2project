@@ -4,110 +4,387 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Mymensing_Place"
-    android:background="@drawable/images"
     android:orientation="vertical"
-    >
+    android:padding="30dp"
+    android:background="@color/frc"
+    tools:context=".Rajshahi_Place">
 
 
-
-    <ImageView
-        android:id="@+id/imageView"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:padding="20dp"
-        app:srcCompat="@drawable/mymensingh" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
 
 
 
-    <LinearLayout
-
-        android:orientation="horizontal"
-        android:id="@+id/linearlayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-
-        >
-
-
-        <Button
-
-            android:id="@+id/rajspeplace"
-            android:layout_width="83dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:text="Places"
-
-            android:textColor="#000000"
-            android:textSize="16dp"
-            android:textStyle="italic"
-
-            />
-
-        <Button
-
-            android:id="@+id/rajfood"
-            android:layout_width="83dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:text="Food"
-
-            android:textColor="#000000"
-            android:textSize="16dp"
-            android:textStyle="italic"
-
-            />
-
-
-    </LinearLayout>
-
-
-    <LinearLayout
-
-        android:orientation="horizontal"
-        android:id="@+id/linearlayout1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/linearlayout"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-
-        >
-
-
-        <Button
-
-            android:id="@+id/Location"
-            android:layout_width="83dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:text="Location"
-
-            android:textColor="#000000"
-            android:textSize="16dp"
-            android:textStyle="italic"
-
-            />
-        <Button
-
-            android:id="@+id/Weather"
-            android:layout_width="83dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:text="Weather"
-
-            android:textColor="#000000"
-            android:textSize="16dp"
-            android:textStyle="italic"
-
-            />
+            <TextView
+                android:layout_marginLeft="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Place list  "
+                android:textSize="35dp"
+                android:textStyle="italic"
+                android:textAppearance="?android:textAppearanceLarge" />
 
 
 
-    </LinearLayout>
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Varendra"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Varendra Research Museum"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Somapura"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Somapura Mahavihara"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Puthia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Puthia Temple Complex"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Bagha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Bagha Mosque"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout3"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Royal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Natore Royal Palace"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout4"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Mahasthangarh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Mahasthangarh"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout5"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Shona"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Choto Shona Masjid"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout6"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Kushumba"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Kushumba Mosjid"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout7"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Lalon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Lalon Shah Bridge"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout8"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Hardinge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Hardinge Bridge, Pakshi"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout9"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Behular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Behular Bashor Ghor - Gokul Medh"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
 
 
 </RelativeLayout>

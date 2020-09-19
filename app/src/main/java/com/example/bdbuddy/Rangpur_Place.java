@@ -7,37 +7,80 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Rangpur_Place extends AppCompatActivity implements View.OnClickListener {
-    Button b1 ,b2 ;
+public class Rangpur_Place extends AppCompatActivity implements View.OnClickListener{
+
+    Button kantajew, tajhat , Nayabad , Choto , Begum , Teesta ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rangpur__place);
 
-        b1 = (Button) findViewById(R.id.rangspeplace);
-        b1.setOnClickListener(this);
 
-        b2 = (Button) findViewById(R.id.rangfood);
-        b2.setOnClickListener(this);
+        kantajew =(Button) findViewById(R.id.kantajew);
+        tajhat =(Button) findViewById(R.id.tajhat);
+        Nayabad =(Button) findViewById(R.id.Nayabad);
+        Choto=(Button) findViewById(R.id.Choto);
+        Begum =(Button) findViewById(R.id.Begum);
+        Teesta =(Button) findViewById(R.id.Teesta);
+
+
+        kantajew.setOnClickListener(this);
+        tajhat.setOnClickListener(this);
+        Nayabad.setOnClickListener(this);
+        Choto.setOnClickListener(this);
+        Begum.setOnClickListener(this);
+        Teesta.setOnClickListener(this);
+
+
     }
 
     @Override
     public void onClick(View v) {
 
-        switch (v.getId()) {
-            case R.id.rangspeplace:
 
-                Intent aintent = new Intent(Rangpur_Place.this, Rangpur_Spectacular_Places.class);
-                startActivity(aintent);
+        switch (v.getId()) {
+            case R.id.kantajew:
+
+                Intent Intent = new Intent(Rangpur_Place.this, Rangpur_Place1.class);
+                startActivity(Intent);
 
                 break;
-            case R.id.rangfood:
 
-                Intent bintent = new Intent(Rangpur_Place.this, Rangpurfood.class);
-                startActivity(bintent);
+            case R.id.tajhat:
+
+                Intent aIntent = new Intent(Rangpur_Place.this, Rangpur_Place2.class);
+                startActivity(aIntent);
+
+                break;
+
+
+            case R.id.Nayabad:
+
+                Intent bIntent = new Intent(Rangpur_Place.this, Rangpur_Place3.class);
+                startActivity(bIntent);
+
+                break;
+
+            case R.id.Choto:
+
+                Intent cIntent = new Intent(Rangpur_Place.this, Rangpur_Place4.class);
+                startActivity(cIntent);
+
+                break;
+            case R.id.Begum:
+
+                Intent dIntent = new Intent(Rangpur_Place.this, Rangpur_Place5.class);
+                startActivity(dIntent);
+
+                break;
+
+
+            case R.id.Teesta:
+
+                Intent gIntent = new Intent(Rangpur_Place.this, Rangpur_Place6.class);
+                startActivity(gIntent);
 
                 break;
         }
-
-    }
+        }
 }

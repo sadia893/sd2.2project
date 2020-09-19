@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.bdbuddy">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -9,43 +15,355 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LanguageList"></activity>
+        <activity android:name=".Dboard"></activity>
+        <activity android:name=".Dhakafood" />
+        <activity android:name=".Rajshahifood" />
+        <activity android:name=".EmergencyRangpur" />
+        <activity android:name=".EmergencyMymensing" />
+        <activity android:name=".EmergencyKhulna" />
+        <activity android:name=".EmergencyChittagong" />
+        <activity android:name=".EmergencySylhet" />
+        <activity android:name=".EmergencyRajshahi" />
+        <activity android:name=".EmergencyBarisal" />
+        <activity android:name=".Chittagongfood" />
+        <activity android:name=".Sylhetfood" />
+        <activity android:name=".Mymensingfood" />
+        <activity android:name=".Rangpurfood" />
+        <activity android:name=".Khulnafood" />
+        <activity android:name=".Barisalfood" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Maps_Barisal6"
+            android:label="@string/title_activity_maps__barisal6" />
+        <activity
+            android:name=".Maps_Barisal5"
+            android:label="@string/title_activity_maps__barisal5" />
+        <activity
+            android:name=".Maps_Barisal4"
+            android:label="@string/title_activity_maps__barisal4" />
+        <activity
+            android:name=".Maps_Barisal3"
+            android:label="@string/title_activity_maps__barisal3" />
+        <activity
+            android:name=".Maps_Barisal2"
+            android:label="@string/title_activity_maps__barisal2" />
+        <activity
+            android:name=".Maps_Barisal1"
+            android:label="@string/title_activity_maps__barisal1" />
+        <activity android:name=".Barisal_Place6" />
+        <activity android:name=".Barisal_Place5" />
+        <activity android:name=".Barisal_Place4" />
+        <activity android:name=".Barisal_Place3" />
+        <activity android:name=".Barisal_Place2" />
+        <activity android:name=".Barisal_Place1" />
+        <activity android:name=".Barisal_Place" />
+        <activity android:name=".Barisal" />
+        <activity android:name=".Rangpur_Place6" />
+        <activity android:name=".Khulna_Place5" />
+        <activity
+            android:name=".Maps_Khulna2"
+            android:label="@string/title_activity_maps__khulna2" />
+        <activity
+            android:name=".Maps_Khulna1"
+            android:label="@string/title_activity_maps__khulna1" />
+        <activity
+            android:name=".Maps_Khulna6"
+            android:label="@string/title_activity_maps__khulna6" />
+        <activity
+            android:name=".Maps_Khulna5"
+            android:label="@string/title_activity_maps__khulna5" />
+        <activity
+            android:name=".Maps_Khulna4"
+            android:label="@string/title_activity_maps__khulna4" />
+        <activity
+            android:name=".Maps_Khulna3"
+            android:label="@string/title_activity_maps__khulna3" />
+        <activity
+            android:name=".Maps_Khukna2"
+            android:label="@string/title_activity_maps__khukna2" />
+        <activity android:name=".Khulna_Place6" />
+        <activity android:name=".Khulna_Place4" />
+        <activity android:name=".Khulna_Place3" />
+        <activity android:name=".Khulna_Place2" />
+        <activity android:name=".Khulna_Place1" />
+        <activity android:name=".Khulna_Place" />
+        <activity android:name=".Khulna" />
+        <activity
+            android:name=".Maps_Rangpur6"
+            android:label="@string/title_activity_maps__rangpur6" />
+        <activity
+            android:name=".Maps_Rangpur5"
+            android:label="@string/title_activity_maps__rangpur5" />
+        <activity
+            android:name=".Maps_Rangpur4"
+            android:label="@string/title_activity_maps__rangpur4" />
+        <activity
+            android:name=".Maps_Rangpur3"
+            android:label="@string/title_activity_maps__rangpur3" />
+        <activity
+            android:name=".Maps_Rangpur2"
+            android:label="@string/title_activity_maps__rangpur2" />
+        <activity
+            android:name=".Maps_Rangpur1"
+            android:label="@string/title_activity_maps__rangpur1" />
+        <activity android:name=".Rangpur_Place5" />
+        <activity android:name=".Rangpur_Place4" />
+        <activity android:name=".Rangpur_Place3" />
+        <activity android:name=".Rangpur_Place2" />
+        <activity android:name=".Rangpur_Place1" />
+        <activity android:name=".Rangpur_Place" />
+        <activity android:name=".Rangpur" />
+        <activity
+            android:name=".Maps_Mymensing5"
+            android:label="@string/title_activity_maps__mymensing5" />
+        <activity
+            android:name=".Maps_Mymensing4"
+            android:label="@string/title_activity_maps__mymensing4" />
+        <activity
+            android:name=".Maps_Mymensing3"
+            android:label="@string/title_activity_maps__mymensing3" />
+        <activity
+            android:name=".Maps_Mymensing2"
+            android:label="@string/title_activity_maps__mymensing2" />
+        <activity
+            android:name=".Maps_Mymensing1"
+            android:label="@string/title_activity_maps__mymensing1" />
+        <activity android:name=".Mymensing_Place5" />
+        <activity android:name=".Mymensing_Place4" />
+        <activity android:name=".Mymensing_Place3" />
+        <activity android:name=".Mymensing_Place2" />
+        <activity android:name=".Mymensing_Place1" />
+        <activity android:name=".Mymensing_Place" />
+        <activity android:name=".Chittagong_Place11" />
+        <activity android:name=".Chittagong_Place10" />
+        <activity
+            android:name=".Maps_Chittagong11"
+            android:label="@string/title_activity_maps__chittagong11" />
+        <activity
+            android:name=".Maps_Chittagong10"
+            android:label="@string/title_activity_maps__chittagong10" />
+        <activity android:name=".Chittagong_Place12" />
+        <activity
+            android:name=".Maps_Chittagong12"
+            android:label="@string/title_activity_maps__chittagong12" />
+        <activity android:name=".Chittagong_Place5" />
+        <activity android:name=".Dhaka_Place1" />
+        <activity android:name=".Mymensing" />
+        <activity android:name=".Sylhet_Place9" />
+        <activity android:name=".Sylhet_Place8" />
+        <activity
+            android:name=".Maps_Sylhet11"
+            android:label="@string/title_activity_maps__sylhet11" />
+        <activity
+            android:name=".Maps_Sylhet10"
+            android:label="@string/title_activity_maps__sylhet10" />
+        <activity
+            android:name=".Maps_Sylhet9"
+            android:label="@string/title_activity_maps__sylhet9" />
+        <activity
+            android:name=".Maps_Sylhet8"
+            android:label="@string/title_activity_maps__sylhet8" />
+        <activity
+            android:name=".Maps_Sylhet7"
+            android:label="@string/title_activity_maps__sylhet7" />
+        <activity
+            android:name=".Maps_Sylhet6"
+            android:label="@string/title_activity_maps__sylhet6" />
+        <activity
+            android:name=".Maps_Sylhet5"
+            android:label="@string/title_activity_maps__sylhet5" />
+        <activity
+            android:name=".Maps_Sylhet4"
+            android:label="@string/title_activity_maps__sylhet4" />
+        <activity
+            android:name=".Maps_Sylhet3"
+            android:label="@string/title_activity_maps__sylhet3" />
+        <activity
+            android:name=".Maps_Sylhet2"
+            android:label="@string/title_activity_maps__sylhet2" />
+        <activity
+            android:name=".Maps_Sylhet1"
+            android:label="@string/title_activity_maps__sylhet1" />
+        <activity
+            android:name=".Maps_Chittagong9"
+            android:label="@string/title_activity_maps__chittagong9" />
+        <activity
+            android:name=".Maps_Chittagong8"
+            android:label="@string/title_activity_maps__chittagong8" />
+        <activity
+            android:name=".Maps_Chittagong7"
+            android:label="@string/title_activity_maps__chittagong7" />
+        <activity
+            android:name=".Maps_Chittagong6"
+            android:label="@string/title_activity_maps__chittagong6" />
+        <activity
+            android:name=".Maps_Chittagong5"
+            android:label="@string/title_activity_maps__chittagong5" />
+        <activity
+            android:name=".Maps_Chittagong4"
+            android:label="@string/title_activity_maps__chittagong4" />
+        <activity
+            android:name=".Maps_Chittagong3"
+            android:label="@string/title_activity_maps__chittagong3" />
+        <activity
+            android:name=".Maps_Chittagong2"
+            android:label="@string/title_activity_maps__chittagong2" />
+        <activity
+            android:name=".Maps_Chittagong1"
+            android:label="@string/title_activity_maps__chittagong1" />
+        <activity
+            android:name=".Maps_Rajshahi11"
+            android:label="@string/title_activity_maps__rajshahi11" />
+        <activity
+            android:name=".Maps_Rajshahi10"
+            android:label="@string/title_activity_maps__rajshahi10" />
+        <activity
+            android:name=".Maps_Rajshahi9"
+            android:label="@string/title_activity_maps__rajshahi9" />
+        <activity
+            android:name=".Maps_Rajshahi8"
+            android:label="@string/title_activity_maps__rajshahi8" />
+        <activity
+            android:name=".Maps_Rajshahi7"
+            android:label="@string/title_activity_maps__rajshahi7" />
+        <activity
+            android:name=".Maps_Rajshahi6"
+            android:label="@string/title_activity_maps__rajshahi6" />
+        <activity
+            android:name=".Maps_Rajshahi5"
+            android:label="@string/title_activity_maps__rajshahi5" />
+        <activity
+            android:name=".Maps_Rajshahi4"
+            android:label="@string/title_activity_maps__rajshahi4" />
+        <activity
+            android:name=".Maps_Rajshahi3"
+            android:label="@string/title_activity_maps__rajshahi3" />
+        <activity
+            android:name=".Maps_Rajshahi2"
+            android:label="@string/title_activity_maps__rajshahi2" />
+        <activity
+            android:name=".Maps_Rajshahi1"
+            android:label="@string/title_activity_maps__rajshahi1" />
+        <activity
+            android:name=".Maps_Dhaka15"
+            android:label="@string/title_activity_maps__dhaka15" />
+        <activity
+            android:name=".Maps_Dhaka14"
+            android:label="@string/title_activity_maps__dhaka14" />
+        <activity
+            android:name=".Maps_Dhaka13"
+            android:label="@string/title_activity_maps__dhaka13" />
+        <activity
+            android:name=".Maps_Dhaka12"
+            android:label="@string/title_activity_maps__dhaka12" />
+        <activity
+            android:name=".Maps_Dhaka11"
+            android:label="@string/title_activity_maps__dhaka11" />
+        <activity
+            android:name=".Maps_Dhaka10"
+            android:label="@string/title_activity_maps__dhaka10" />
+        <activity
+            android:name=".Maps_Dhaka9"
+            android:label="@string/title_activity_maps__dhaka9" />
+        <activity
+            android:name=".Maps_Dhaka8"
+            android:label="@string/title_activity_maps__dhaka8" />
+        <activity
+            android:name=".Maps_Dhaka7"
+            android:label="@string/title_activity_maps__dhaka7" />
+        <activity
+            android:name=".Maps_Dhaka6"
+            android:label="@string/title_activity_maps__dhaka6" />
+        <activity
+            android:name=".Maps_Dhaka5"
+            android:label="@string/title_activity_maps__dhaka5" />
+        <activity
+            android:name=".Maps_Dhaka4"
+            android:label="@string/title_activity_maps__dhaka4" />
+        <activity
+            android:name=".Maps_Dhaka3"
+            android:label="@string/title_activity_maps__dhaka3" />
+        <activity
+            android:name=".Maps_Dhaka2"
+            android:label="@string/title_activity_maps__dhaka2" />
+        <activity
+            android:name=".Maps_Dhaka1"
+            android:label="@string/title_activity_maps__dhaka1" />
+        <activity android:name=".Rajshahi_Place11" />
+        <activity android:name=".Rajshahi_Place10" />
+        <activity android:name=".Rajshahi_Place9" />
+        <activity android:name=".Rajshahi_Place8" />
+        <activity android:name=".Rajshahi_Place7" />
+        <activity android:name=".Rajshahi_Place6" />
+        <activity android:name=".Rajshahi_Place5" />
+        <activity android:name=".Rajshahi_Place4" />
+        <activity android:name=".Rajshahi_Place3" />
+        <activity android:name=".Rajshahi_Place2" />
+        <activity android:name=".Rajshahi_Place1" />
+        <activity android:name=".Rajshahi_Place" />
+        <activity android:name=".Rajshahi" />
+        <activity android:name=".Sylhet_Place11" />
+        <activity android:name=".Sylhet_Place10" />
+        <activity android:name=".Sylhet_Place7" />
+        <activity android:name=".Sylhet_Place6" />
+        <activity android:name=".Sylhet_Place5" />
+        <activity android:name=".Sylhet_Place4" />
+        <activity android:name=".Sylhet_Place3" />
+        <activity android:name=".Sylhet_Place2" />
+        <activity android:name=".Sylhet_Place1" />
+        <activity android:name=".Sylhet_Place" />
+        <activity android:name=".Sylhet" />
+        <activity android:name=".Chittagong_Place9" />
+        <activity android:name=".Chittagong_Place8" />
+        <activity android:name=".Chittagong_Place7" />
+        <activity android:name=".Chittagong_Place6" />
+        <activity android:name=".Chittagong_Place4" />
+        <activity android:name=".Chittagong_Place3" />
+        <activity android:name=".Chittagong_Place2" />
+        <activity android:name=".Chittagong_Place1" />
+        <activity android:name=".Chittagong_Place" />
+        <activity android:name=".Chittagong" />
+        <activity android:name=".Dhaka_Place15" />
+        <activity android:name=".Dhaka_Place14" />
+        <activity android:name=".Dhaka_Place13" />
+        <activity android:name=".Dhaka_Place12" />
+        <activity android:name=".Dhaka_Place11" />
+        <activity android:name=".Dhaka_Place10" />
+        <activity android:name=".Dhaka_Place9" />
+        <activity android:name=".Dhaka_Place8" />
+        <activity android:name=".Dhaka_Place7" />
+        <activity android:name=".Dhaka_Place6" />
+        <activity android:name=".Dhaka_Place5" />
+        <activity android:name=".Dhaka_Place4" />
+        <activity android:name=".Dhaka_Place3" />
+        <activity android:name=".Dhaka_Place2" />
+        <activity android:name=".Dhaka_Place" />
+        <activity android:name=".Dhaka" />
         <activity android:name=".Sign_up" />
         <activity android:name=".Sign_in" />
-        <activity android:name=".Mymensingfood" />
         <activity android:name=".Mymensing_Spectacular_Place" />
-        <activity android:name=".Rangpurfood" />
         <activity android:name=".Rangpur_Spectacular_Places" />
         <activity android:name=".Khulna_Spectacular_Place" />
         <activity android:name=".Khunlafood" />
         <activity android:name=".Chittagong_Spectacular_places" />
-        <activity android:name=".Chittagongfood" />
         <activity android:name=".Barisal_Spectacular_Place" />
-        <activity android:name=".Barisalfood" />
         <activity android:name=".Sylhet_Spectacular_Place" />
-        <activity android:name=".Sylhetfood" />
         <activity android:name=".Rajshahi_Spectacular_place" />
-        <activity android:name=".Rajshahifood" />
-        <activity android:name=".Dhakafood" />
         <activity android:name=".Dhaka_Spectacular_place" />
-        <activity android:name=".Rangpur_Place" />
-        <activity android:name=".Mymensing_Place" />
-        <activity android:name=".Rajshahi_Place" />
-        <activity android:name=".Khulna_Place" />
-        <activity android:name=".Chittagong_Place" />
-        <activity android:name=".Sylhet_Place" />
-        <activity android:name=".Barisal_Place" />
-        <activity android:name=".Dhaka_Place" />
         <activity android:name=".Selected_Divisions" />
         <activity android:name=".Time" />
         <activity android:name=".Main2Activity" />
-        <activity android:name=".EmergencyMymensing" />
-        <activity android:name=".EmergencySylhet" />
-        <activity android:name=".EmergencyRangpur" />
-        <activity android:name=".EmergencyKhulna" />
-        <activity android:name=".EmergencyChittagong" />
-        <activity android:name=".EmergencyBarisal" />
-        <activity android:name=".EmergecyRajshahi" />
         <activity android:name=".EmergecyDhaka" />
         <activity android:name=".Division" />
         <activity android:name=".I_want_to_work" />

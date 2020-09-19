@@ -4,110 +4,230 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Khulna_Place"
-    android:background="@drawable/images"
     android:orientation="vertical"
-    >
+    android:padding="30dp"
+    android:background="@color/frc"
+    tools:context=".Khulna_Place">
 
 
-
-    <ImageView
-        android:id="@+id/imageView"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:padding="20dp"
-        app:srcCompat="@drawable/khulna" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
 
 
 
-    <LinearLayout
-
-        android:orientation="horizontal"
-        android:id="@+id/linearlayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-
-        >
-
-
-        <Button
-
-            android:id="@+id/kspeplace"
-            android:layout_width="83dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:text="Places"
-
-            android:textColor="#000000"
-            android:textSize="16dp"
-            android:textStyle="italic"
-
-            />
-
-        <Button
-
-            android:id="@+id/kfood"
-            android:layout_width="83dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:text="Food"
-
-            android:textColor="#000000"
-            android:textSize="16dp"
-            android:textStyle="italic"
-
-            />
-
-
-    </LinearLayout>
-
-
-    <LinearLayout
-
-        android:orientation="horizontal"
-        android:id="@+id/linearlayout1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/linearlayout"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-
-        >
-
-
-        <Button
-
-            android:id="@+id/Location"
-            android:layout_width="83dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:text="Location"
-
-            android:textColor="#000000"
-            android:textSize="16dp"
-            android:textStyle="italic"
-
-            />
-        <Button
-
-            android:id="@+id/Weather"
-            android:layout_width="83dp"
-            android:layout_height="100dp"
-            android:layout_weight="1"
-            android:text="Weather"
-
-            android:textColor="#000000"
-            android:textSize="16dp"
-            android:textStyle="italic"
-
-            />
+            <TextView
+                android:layout_marginLeft="45dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Place list  "
+                android:textSize="35dp"
+                android:textStyle="italic"
+                android:textAppearance="?android:textAppearanceLarge" />
 
 
 
-    </LinearLayout>
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Rabindranath"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Rabindranath Tagore's Shilaidaha Kuthibari"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Hiron"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Hiron Point Bangladesh"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Sundarbans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Sundarbans"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Mongla"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Mongla port"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout3"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/Rampal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="Rampal Power Station"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearlayout4"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                >
+
+
+                <Button
+
+                    android:id="@+id/shat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:text="shat gombuj mosque"
+
+                    android:textColor="#000000"
+                    android:textSize="16dp"
+                    android:textStyle="italic"
+
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
 
 
 </RelativeLayout>

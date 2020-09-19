@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/frc"
+    tools:context=".Mymensing">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding="15dp"
+        app:srcCompat="@drawable/mymensingh" />
+
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:padding="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        >
+
+
+        <RadioButton
+            android:id="@+id/myplace"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Place List"
+            android:layout_marginBottom="5dp"
+            android:textStyle="italic"
+            android:textSize="35dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearlayout"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        >
+
+
+
+        <RadioButton
+            android:id="@+id/myfood"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Famous Food"
+            android:layout_marginBottom="5dp"
+            android:textStyle="italic"
+            android:textSize="35dp"/>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
